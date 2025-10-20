@@ -35,14 +35,17 @@
 .task-row-wrapper {
   display: flex;
 }
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.task-item, .title {
+.task-item,
+.title {
   list-style: none;
 }
-.task-input,.btn{
+.task-input,
+.btn{
   outline: none;
 }
 .btn {
