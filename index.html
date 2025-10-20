@@ -7,31 +7,31 @@
   </head>
   <body class="page">
     <aside class="matrix">
-      <img class="page-img" src="./eisenhower-matrix.jpg" alt="matrix">
-      <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img class="matrix__img" src="./eisenhower-matrix.jpg" alt="matrix">
+      <a class="matrix__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </aside>
     <main class="main">
-      <section id="add-task">
-        <h3>
-          <label class="title" for="new-task">Add Item</label>
+      <section id="add">
+        <h3 class="add__title">
+          <label class="title" for="add__task">Add Item</label>
         </h3>
-        <div class="task-row-wrapper">
-          <input id="new-task"class="task task-input" type="text">
-          <button class="btn">Add</button>
+        <div class="add__item">
+          <input id="add__task"class="task task-input" type="text">
+          <button class="add__btn btn">Add</button>
         </div>
       </section>
-      <section>
-        <h3 class="title">Todo</h3>
-        <ul id="incomplete-tasks">
-          <li class="task-item">
-          <input type="checkbox">
+      <section class="todo">
+        <h3 class="todo__title title">Todo</h3>
+        <ul id="todo__tasks">
+          <li class="todo__item task-item">
+          <input class="task-checkbox" type="checkbox">
           <label class="task task-label">Pay Bills</label>
           <input type="text" class="task task-input">
           <button class="btn btn-edit">Edit</button>
           <button class="btn btn-delete"><img class="delete-img" src="./remove.svg" alt="remove"></button>
         </li>
-        <li class="edit-mode task-item">
-          <input type="checkbox">
+        <li class="todo__edit task-item">
+          <input class="task-checkbox" type="checkbox">
           <label class="task task-label">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task task-input">
           <button class="btn btn-edit">Save</button>
@@ -39,11 +39,11 @@
         </li>
       </ul>
     </section>
-    <section>
-      <h3 class="title">Completed</h3>
-      <ul id="completed-tasks">
-        <li class="task-item">
-          <input type="checkbox" checked>
+    <section class="completed">
+      <h3 class="completed__title title">Completed</h3>
+      <ul id="completed__tasks">
+        <li class="completed__item task-item">
+          <input class="task-checkbox" type="checkbox" checked>
           <label class="task task-label">See the Doctor</label>
           <input type="text" class="task task-input">
           <button class="btn btn-edit">Edit</button>
